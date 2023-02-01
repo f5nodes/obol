@@ -5,7 +5,7 @@
 1. Run the script:
 
 ```sh
-. <(wget -qO- sh.mogoll92.com) obol
+. <(wget -qO- sh.f5nodes.com) obol
 ```
 
 2. Wait till the end of installation, then you will see your enr.
