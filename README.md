@@ -17,3 +17,5 @@
 ```sh
 cat $HOME/charon-distributed-validator-node/.charon/charon-enr-private-key
 ```
+
+#### Install cluster:
