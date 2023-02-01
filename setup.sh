@@ -5,7 +5,7 @@ CHARON_VER="v0.13.0"
 
 sudo apt update
 sudo apt install mc wget curl git htop net-tools jq build-essential ncdu tmux -y
-bash <(curl -s https://raw.githubusercontent.com/mogoll92/root/main/install/docker.sh) &>/dev/null
+bash <(curl -s https://raw.githubusercontent.com/f5nodes/root/main/install/docker.sh) &>/dev/null
 
 git clone https://github.com/ObolNetwork/$DIR.git
 chmod -R 707 $HOME/$DIR && cd $DIR
