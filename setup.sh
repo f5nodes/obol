@@ -13,4 +13,5 @@ cd $DIR
 sudo docker run -u $(id -u):$(id -g) --rm -v "$(pwd):/opt/charon" obolnetwork/charon:$CHARON_VER create enr
 
 echo -e "\n\e[93mYour \e[92menr\e[93m is above! \e[92mSave it!\e[0m"
-echo -e "Please make sure to create a backup of the private key create at \e[92m.charon/charon-enr-private-key\e[0m"
+echo -e "\e[93mPlease make sure to create a backup of the private key create at \e[92m.charon/charon-enr-private-key\e[0m\n"
+
